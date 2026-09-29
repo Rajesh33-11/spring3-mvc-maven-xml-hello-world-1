@@ -27,7 +27,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 git branch: "${params.BRANCH}",
-                    url: 'https://github.com/betawins/spring3-mvc-maven-xml-hello-world-1.git'
+                    url: 'https://github.com/Rajesh33-11/spring3-mvc-maven-xml-hello-world-1.git'
             }
         }
 
